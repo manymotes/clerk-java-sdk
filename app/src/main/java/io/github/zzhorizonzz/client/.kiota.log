@@ -1,0 +1,2 @@
+Warning: KiotaBuilder OpenAPI warning: #/paths/~1users/get/parameters/8/example - Data and type mismatch found.
+Warning: KiotaBuilder OpenAPI warning: #/components/schemas/Invitation/properties/email_address - The format email is not supported by Kiota and the string type will be used.
