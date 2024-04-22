@@ -1,8 +1,8 @@
-package io.github.zzhorizonzz.client.users.item.oauth_access_tokens;
+package io.github.zzhorizonzz.sdk.client.users.item.oauth_access_tokens;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.RequestAdapter;
-import io.github.zzhorizonzz.client.users.item.oauth_access_tokens.item.WithProviderItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.users.item.oauth_access_tokens.item.WithProviderItemRequestBuilder;
 import java.util.HashMap;
 import java.util.Objects;
 /**

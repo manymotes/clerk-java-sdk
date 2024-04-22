@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.beta_features.domain;
+package io.github.zzhorizonzz.sdk.client.beta_features.domain;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -8,7 +8,7 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -38,7 +38,7 @@ public class DomainRequestBuilder extends BaseRequestBuilder {
      * Change the domain of a production instance.Changing the domain requires updating the [DNS records](https://clerk.com/docs/deployments/overview#dns-records) accordingly, deploying new [SSL certificates](https://clerk.com/docs/deployments/overview#deploy), updating your Social Connection's redirect URLs and setting the new keys in your code.WARNING: Changing your domain will invalidate all current user sessions (i.e. users will be logged out). Also, while your application is being deployed, a small downtime is expected to occur.
      * @param body The request body
      * @deprecated
-     * 
+     *
      */
     @Deprecated
     public void put(@jakarta.annotation.Nonnull final DomainPutRequestBody body) {
@@ -49,7 +49,7 @@ public class DomainRequestBuilder extends BaseRequestBuilder {
      * @param body The request body
      * @param requestConfiguration Configuration for the request such as headers, query parameters, and middleware options.
      * @deprecated
-     * 
+     *
      */
     @Deprecated
     public void put(@jakarta.annotation.Nonnull final DomainPutRequestBody body, @jakarta.annotation.Nullable final java.util.function.Consumer<PutRequestConfiguration> requestConfiguration) {
@@ -65,7 +65,7 @@ public class DomainRequestBuilder extends BaseRequestBuilder {
      * @param body The request body
      * @return a RequestInformation
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated
@@ -78,7 +78,7 @@ public class DomainRequestBuilder extends BaseRequestBuilder {
      * @param requestConfiguration Configuration for the request such as headers, query parameters, and middleware options.
      * @return a RequestInformation
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated
@@ -95,7 +95,7 @@ public class DomainRequestBuilder extends BaseRequestBuilder {
      * @param rawUrl The raw URL to use for the request builder.
      * @return a DomainRequestBuilder
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated

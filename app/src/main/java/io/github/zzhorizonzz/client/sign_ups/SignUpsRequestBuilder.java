@@ -1,8 +1,8 @@
-package io.github.zzhorizonzz.client.sign_ups;
+package io.github.zzhorizonzz.sdk.client.sign_ups;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.RequestAdapter;
-import io.github.zzhorizonzz.client.sign_ups.item.SignUpsItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.sign_ups.item.SignUpsItemRequestBuilder;
 import java.util.HashMap;
 import java.util.Objects;
 /**

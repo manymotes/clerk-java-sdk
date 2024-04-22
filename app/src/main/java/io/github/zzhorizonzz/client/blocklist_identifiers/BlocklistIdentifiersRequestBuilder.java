@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.blocklist_identifiers;
+package io.github.zzhorizonzz.sdk.client.blocklist_identifiers;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -8,10 +8,10 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.blocklist_identifiers.item.WithIdentifierItemRequestBuilder;
-import io.github.zzhorizonzz.client.models.BlocklistIdentifier;
-import io.github.zzhorizonzz.client.models.BlocklistIdentifiers;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.blocklist_identifiers.item.WithIdentifierItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.models.BlocklistIdentifier;
+import io.github.zzhorizonzz.sdk.client.models.BlocklistIdentifiers;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;

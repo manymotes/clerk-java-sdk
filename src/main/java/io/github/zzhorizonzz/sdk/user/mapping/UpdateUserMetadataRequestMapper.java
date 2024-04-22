@@ -5,7 +5,7 @@ import io.github.zzhorizonzz.sdk.common.mapping.PrivateMetadataMapper;
 import io.github.zzhorizonzz.sdk.common.mapping.PublicMetadataMapper;
 import io.github.zzhorizonzz.sdk.common.mapping.UnsafeMetadataMapper;
 import io.github.zzhorizonzz.sdk.user.request.UpdateUserMetadataRequest;
-import io.github.zzhorizonzz.client.users.item.metadata.MetadataPatchRequestBody;
+import io.github.zzhorizonzz.sdk.client.users.item.metadata.MetadataPatchRequestBody;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;

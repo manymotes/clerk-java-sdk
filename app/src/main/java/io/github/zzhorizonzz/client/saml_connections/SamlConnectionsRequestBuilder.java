@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.saml_connections;
+package io.github.zzhorizonzz.sdk.client.saml_connections;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -9,10 +9,10 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
-import io.github.zzhorizonzz.client.models.SAMLConnection;
-import io.github.zzhorizonzz.client.models.SAMLConnections;
-import io.github.zzhorizonzz.client.saml_connections.item.WithSamlConnectionItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.models.SAMLConnection;
+import io.github.zzhorizonzz.sdk.client.models.SAMLConnections;
+import io.github.zzhorizonzz.sdk.client.saml_connections.item.WithSamlConnectionItemRequestBuilder;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;

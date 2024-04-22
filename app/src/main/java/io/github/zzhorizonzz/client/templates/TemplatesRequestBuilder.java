@@ -1,8 +1,8 @@
-package io.github.zzhorizonzz.client.templates;
+package io.github.zzhorizonzz.sdk.client.templates;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.RequestAdapter;
-import io.github.zzhorizonzz.client.templates.item.WithTemplateTypeItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.templates.item.WithTemplateTypeItemRequestBuilder;
 import java.util.HashMap;
 import java.util.Objects;
 /**

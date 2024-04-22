@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.sessions.item.verify;
+package io.github.zzhorizonzz.sdk.client.sessions.item.verify;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -8,8 +8,8 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
-import io.github.zzhorizonzz.client.models.Session;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.models.Session;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -40,7 +40,7 @@ public class VerifyRequestBuilder extends BaseRequestBuilder {
      * @param body The request body
      * @return a Session
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nullable
     @Deprecated
@@ -53,7 +53,7 @@ public class VerifyRequestBuilder extends BaseRequestBuilder {
      * @param requestConfiguration Configuration for the request such as headers, query parameters, and middleware options.
      * @return a Session
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nullable
     @Deprecated
@@ -72,7 +72,7 @@ public class VerifyRequestBuilder extends BaseRequestBuilder {
      * @param body The request body
      * @return a RequestInformation
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated
@@ -85,7 +85,7 @@ public class VerifyRequestBuilder extends BaseRequestBuilder {
      * @param requestConfiguration Configuration for the request such as headers, query parameters, and middleware options.
      * @return a RequestInformation
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated
@@ -102,7 +102,7 @@ public class VerifyRequestBuilder extends BaseRequestBuilder {
      * @param rawUrl The raw URL to use for the request builder.
      * @return a VerifyRequestBuilder
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated

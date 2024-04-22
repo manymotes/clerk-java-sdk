@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.sessions;
+package io.github.zzhorizonzz.sdk.client.sessions;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -9,9 +9,9 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
-import io.github.zzhorizonzz.client.models.Session;
-import io.github.zzhorizonzz.client.sessions.item.WithSessionItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.models.Session;
+import io.github.zzhorizonzz.sdk.client.sessions.item.WithSessionItemRequestBuilder;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;

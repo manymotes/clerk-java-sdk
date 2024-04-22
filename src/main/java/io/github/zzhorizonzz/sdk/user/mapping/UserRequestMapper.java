@@ -1,6 +1,6 @@
 package io.github.zzhorizonzz.sdk.user.mapping;
 
-import io.github.zzhorizonzz.client.users.UsersPostRequestBody;
+import io.github.zzhorizonzz.sdk.client.users.UsersPostRequestBody;
 import io.github.zzhorizonzz.sdk.common.mapping.BaseMapper;
 import io.github.zzhorizonzz.sdk.common.mapping.PrivateMetadataMapper;
 import io.github.zzhorizonzz.sdk.common.mapping.PublicMetadataMapper;
@@ -17,7 +17,7 @@ public interface UserRequestMapper {
             @Mapping(target = "unsafeMetadata", source = "unsafeMetadata"),
             @Mapping(target = "publicMetadata", source = "publicMetadata"),
             @Mapping(target = "privateMetadata", source = "privateMetadata"),
-            @Mapping(target = "passwordHasher", expression = "java(createUserRequest.getPasswordHasher() != null ? io.github.zzhorizonzz.client.users.UsersPostRequestBodyPasswordHasher.forValue(createUserRequest.getPasswordHasher()) : null)"),
+            @Mapping(target = "passwordHasher", expression = "java(createUserRequest.getPasswordHasher() != null ? io.github.zzhorizonzz.sdk.client.users.UsersPostRequestBodyPasswordHasher.forValue(createUserRequest.getPasswordHasher()) : null)"),
     })
     UsersPostRequestBody toUsersPostRequestBody(CreateUserRequest createUserRequest);
 }

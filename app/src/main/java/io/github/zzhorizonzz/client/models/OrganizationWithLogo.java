@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.models;
+package io.github.zzhorizonzz.sdk.client.models;
 
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParseNode;
@@ -19,7 +19,7 @@ public class OrganizationWithLogo extends Organization implements Parsable {
     /**
      * The logo_url property
      * @deprecated
-     * 
+     *
      */
     @Deprecated
     private String logoUrl;
@@ -71,7 +71,7 @@ public class OrganizationWithLogo extends Organization implements Parsable {
      * Gets the logo_url property value. The logo_url property
      * @return a String
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nullable
     @Deprecated
@@ -107,7 +107,7 @@ public class OrganizationWithLogo extends Organization implements Parsable {
      * Sets the logo_url property value. The logo_url property
      * @param value Value to set for the logo_url property.
      * @deprecated
-     * 
+     *
      */
     @Deprecated
     public void setLogoUrl(@jakarta.annotation.Nullable final String value) {

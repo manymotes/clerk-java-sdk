@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.jwt_templates;
+package io.github.zzhorizonzz.sdk.client.jwt_templates;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -8,9 +8,9 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.jwt_templates.item.WithTemplateItemRequestBuilder;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
-import io.github.zzhorizonzz.client.models.JWTTemplate;
+import io.github.zzhorizonzz.sdk.client.jwt_templates.item.WithTemplateItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.models.JWTTemplate;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;

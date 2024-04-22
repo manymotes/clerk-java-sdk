@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.domains;
+package io.github.zzhorizonzz.sdk.client.domains;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -8,10 +8,10 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.domains.item.WithDomainItemRequestBuilder;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
-import io.github.zzhorizonzz.client.models.Domain;
-import io.github.zzhorizonzz.client.models.Domains;
+import io.github.zzhorizonzz.sdk.client.domains.item.WithDomainItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.models.Domain;
+import io.github.zzhorizonzz.sdk.client.models.Domains;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;

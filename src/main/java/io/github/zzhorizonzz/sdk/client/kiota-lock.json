@@ -1,0 +1,32 @@
+{
+  "descriptionHash": "2AC86DB022188CE38F91589D3246E1E504943B38DA8792592FB4F7F59E7827BFD602C222E0AC34ADB26021914E17444468C92A0DEAD6C3E43A53FD3599B61A99",
+  "descriptionLocation": "../../../../../../../../openapi.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.11.1",
+  "clientClassName": "ClerkClient",
+  "clientNamespaceName": "io.github.zzhorizonzz.sdk.client",
+  "language": "Java",
+  "usesBackingStore": false,
+  "excludeBackwardCompatible": false,
+  "includeAdditionalData": true,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Multipart.MultipartSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain;q=0.9",
+    "application/x-www-form-urlencoded;q=0.2",
+    "multipart/form-data;q=0.1"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

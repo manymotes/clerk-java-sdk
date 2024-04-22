@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.clients;
+package io.github.zzhorizonzz.sdk.client.clients;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -9,10 +9,10 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.clients.item.WithClientItemRequestBuilder;
-import io.github.zzhorizonzz.client.clients.verify.VerifyRequestBuilder;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
-import io.github.zzhorizonzz.client.models.Client;
+import io.github.zzhorizonzz.sdk.client.clients.item.WithClientItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.clients.verify.VerifyRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.models.Client;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -25,7 +25,7 @@ public class ClientsRequestBuilder extends BaseRequestBuilder {
     /**
      * The verify property
      * @deprecated
-     * 
+     *
      */
     @Deprecated
     @jakarta.annotation.Nonnull
@@ -64,7 +64,7 @@ public class ClientsRequestBuilder extends BaseRequestBuilder {
      * Returns a list of all clients. The clients are returned sorted by creation date,with the newest clients appearing first.Warning: the endpoint is being deprecated and will be removed in future versions.
      * @return a java.util.List<Client>
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nullable
     @Deprecated
@@ -76,7 +76,7 @@ public class ClientsRequestBuilder extends BaseRequestBuilder {
      * @param requestConfiguration Configuration for the request such as headers, query parameters, and middleware options.
      * @return a java.util.List<Client>
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nullable
     @Deprecated
@@ -93,7 +93,7 @@ public class ClientsRequestBuilder extends BaseRequestBuilder {
      * Returns a list of all clients. The clients are returned sorted by creation date,with the newest clients appearing first.Warning: the endpoint is being deprecated and will be removed in future versions.
      * @return a RequestInformation
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated
@@ -105,7 +105,7 @@ public class ClientsRequestBuilder extends BaseRequestBuilder {
      * @param requestConfiguration Configuration for the request such as headers, query parameters, and middleware options.
      * @return a RequestInformation
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated
@@ -120,7 +120,7 @@ public class ClientsRequestBuilder extends BaseRequestBuilder {
      * @param rawUrl The raw URL to use for the request builder.
      * @return a ClientsRequestBuilder
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated

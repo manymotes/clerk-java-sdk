@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.oauth_applications;
+package io.github.zzhorizonzz.sdk.client.oauth_applications;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -9,10 +9,10 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
-import io.github.zzhorizonzz.client.models.OAuthApplications;
-import io.github.zzhorizonzz.client.models.OAuthApplicationWithSecret;
-import io.github.zzhorizonzz.client.oauth_applications.item.WithOauthApplicationItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.models.OAuthApplications;
+import io.github.zzhorizonzz.sdk.client.models.OAuthApplicationWithSecret;
+import io.github.zzhorizonzz.sdk.client.oauth_applications.item.WithOauthApplicationItemRequestBuilder;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;

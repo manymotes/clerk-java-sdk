@@ -1,8 +1,8 @@
-package io.github.zzhorizonzz.client.sessions.item.tokens;
+package io.github.zzhorizonzz.sdk.client.sessions.item.tokens;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.RequestAdapter;
-import io.github.zzhorizonzz.client.sessions.item.tokens.item.WithTemplateNameItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.sessions.item.tokens.item.WithTemplateNameItemRequestBuilder;
 import java.util.HashMap;
 import java.util.Objects;
 /**

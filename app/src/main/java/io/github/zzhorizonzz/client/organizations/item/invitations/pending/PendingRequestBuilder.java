@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.organizations.item.invitations.pending;
+package io.github.zzhorizonzz.sdk.client.organizations.item.invitations.pending;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -9,8 +9,8 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
-import io.github.zzhorizonzz.client.models.OrganizationInvitations;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.models.OrganizationInvitations;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -40,7 +40,7 @@ public class PendingRequestBuilder extends BaseRequestBuilder {
      * This request returns the list of organization invitations with "pending" status.These are the organization invitations that can still be used to join the organization, but have not been accepted by the invited user yet.Results can be paginated using the optional `limit` and `offset` query parameters.The organization invitations are ordered by descending creation date.Most recent invitations will be returned first.Any invitations created as a result of an Organization Domain are not included in the results.
      * @return a OrganizationInvitations
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nullable
     @Deprecated
@@ -52,7 +52,7 @@ public class PendingRequestBuilder extends BaseRequestBuilder {
      * @param requestConfiguration Configuration for the request such as headers, query parameters, and middleware options.
      * @return a OrganizationInvitations
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nullable
     @Deprecated
@@ -67,7 +67,7 @@ public class PendingRequestBuilder extends BaseRequestBuilder {
      * This request returns the list of organization invitations with "pending" status.These are the organization invitations that can still be used to join the organization, but have not been accepted by the invited user yet.Results can be paginated using the optional `limit` and `offset` query parameters.The organization invitations are ordered by descending creation date.Most recent invitations will be returned first.Any invitations created as a result of an Organization Domain are not included in the results.
      * @return a RequestInformation
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated
@@ -79,7 +79,7 @@ public class PendingRequestBuilder extends BaseRequestBuilder {
      * @param requestConfiguration Configuration for the request such as headers, query parameters, and middleware options.
      * @return a RequestInformation
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated
@@ -94,7 +94,7 @@ public class PendingRequestBuilder extends BaseRequestBuilder {
      * @param rawUrl The raw URL to use for the request builder.
      * @return a PendingRequestBuilder
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nonnull
     @Deprecated

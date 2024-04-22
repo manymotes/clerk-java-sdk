@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.instance;
+package io.github.zzhorizonzz.sdk.client.instance;
 
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParseNode;
@@ -19,7 +19,7 @@ public class InstancePatchRequestBody implements Parsable {
     /**
      * Whether the instance should operate in cookieless development mode (i.e. without third-party cookies).Deprecated: Please use `url_based_session_syncing` instead.
      * @deprecated
-     * 
+     *
      */
     @Deprecated
     private Boolean cookielessDev;
@@ -77,7 +77,7 @@ public class InstancePatchRequestBody implements Parsable {
      * Gets the cookieless_dev property value. Whether the instance should operate in cookieless development mode (i.e. without third-party cookies).Deprecated: Please use `url_based_session_syncing` instead.
      * @return a Boolean
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nullable
     @Deprecated
@@ -184,7 +184,7 @@ public class InstancePatchRequestBody implements Parsable {
      * Sets the cookieless_dev property value. Whether the instance should operate in cookieless development mode (i.e. without third-party cookies).Deprecated: Please use `url_based_session_syncing` instead.
      * @param value Value to set for the cookieless_dev property.
      * @deprecated
-     * 
+     *
      */
     @Deprecated
     public void setCookielessDev(@jakarta.annotation.Nullable final Boolean value) {

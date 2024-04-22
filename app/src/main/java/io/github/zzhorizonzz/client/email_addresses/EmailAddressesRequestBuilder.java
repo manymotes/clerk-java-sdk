@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.email_addresses;
+package io.github.zzhorizonzz.sdk.client.email_addresses;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -8,9 +8,9 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.email_addresses.item.WithEmailAddressItemRequestBuilder;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
-import io.github.zzhorizonzz.client.models.EmailAddress;
+import io.github.zzhorizonzz.sdk.client.email_addresses.item.WithEmailAddressItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.models.EmailAddress;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;

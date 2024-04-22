@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.redirect_urls;
+package io.github.zzhorizonzz.sdk.client.redirect_urls;
 
 import com.microsoft.kiota.BaseRequestBuilder;
 import com.microsoft.kiota.BaseRequestConfiguration;
@@ -8,9 +8,9 @@ import com.microsoft.kiota.RequestInformation;
 import com.microsoft.kiota.RequestOption;
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParsableFactory;
-import io.github.zzhorizonzz.client.models.ClerkErrors;
-import io.github.zzhorizonzz.client.models.RedirectURL;
-import io.github.zzhorizonzz.client.redirect_urls.item.RedirectUrlsItemRequestBuilder;
+import io.github.zzhorizonzz.sdk.client.models.ClerkErrors;
+import io.github.zzhorizonzz.sdk.client.models.RedirectURL;
+import io.github.zzhorizonzz.sdk.client.redirect_urls.item.RedirectUrlsItemRequestBuilder;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;

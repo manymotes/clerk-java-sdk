@@ -5,7 +5,7 @@
 plugins {
     id 'java-library'
     id 'maven-publish'
-    id "org.openapi.generator" version "7.5.0"
+//    id "org.openapi.generator" version "7.5.0"
 }
 
 
@@ -22,11 +22,11 @@ repositories {
 
 dependencies {
 
-    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+//    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
 
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    implementation 'io.springfox:springfox-swagger2:2.9.2'
-    implementation 'io.springfox:springfox-swagger-ui:2.9.2'
+//    implementation 'org.springframework.boot:spring-boot-starter-web'
+//    implementation 'io.springfox:springfox-swagger2:2.9.2'
+//    implementation 'io.springfox:springfox-swagger-ui:2.9.2'
 
     api libs.com.microsoft.kiota.microsoft.kiota.abstractions
     api libs.com.microsoft.kiota.microsoft.kiota.serialization.json
@@ -40,8 +40,12 @@ dependencies {
     api libs.org.jetbrains.annotations
     api libs.org.projectlombok.lombok.mapstruct.binding
     api libs.org.mapstruct.mapstruct
-    compileOnly libs.org.projectlombok.lombok
-    compileOnly libs.org.mapstruct.mapstruct.processor
+//    compileOnly libs.org.projectlombok.lombok
+//    compileOnly libs.org.mapstruct.mapstruct.processor
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
 }
 
 group = 'io.github.zzhorizonzz'
@@ -67,25 +71,25 @@ tasks.withType(JavaCompile) {
 }
 
 tasks.withType(Javadoc) {
-    options.encoding = 'UTF-8'
+    enabled = false
 }
 
-openApiGenerate {
-    generatorName = 'java' // Set the client generator you need, e.g., 'java', 'python', etc.
-    inputSpec = "openapi.json"
-    outputDir = "${project.buildDir}/generated-sources/openapi".toString()
-    apiPackage = 'io.github.zzhorizonzz.client'
-    modelPackage = 'io.github.zzhorizonzz.model'
-    invokerPackage = 'io.github.zzhorizonzz.invoker'
-    configOptions = [
-            dateLibrary: "java8" // Use Java 8 date types
-    ]
-}
+//openApiGenerate {
+//    generatorName = 'java' // Set the client generator you need, e.g., 'java', 'python', etc.
+//    inputSpec = "openapi.json"
+//    outputDir = "${project.buildDir}/generated-sources/openapi".toString()
+//    apiPackage = 'io.github.zzhorizonzz.sdk.client'
+//    modelPackage = 'io.github.zzhorizonzz.sdk.client'
+//    invokerPackage = 'io.github.zzhorizonzz.sdk.client'
+//    configOptions = [
+//            dateLibrary: "java8" // Use Java 8 date types
+//    ]
+//}
 
-sourceSets {
-    main {
-        java {
-            srcDir "${project.buildDir}/src/main/java/io/github/zzhorizonzz/client"
-        }
-    }
-}
+//sourceSets {
+//    main {
+//        java {
+//            srcDir "${project.buildDir}/src/main/java/io/github/zzhorizonzz/sdk/client"
+//        }
+//    }
+//}

@@ -1,4 +1,4 @@
-package io.github.zzhorizonzz.client.models;
+package io.github.zzhorizonzz.sdk.client.models;
 
 import com.microsoft.kiota.serialization.Parsable;
 import com.microsoft.kiota.serialization.ParseNode;
@@ -115,7 +115,7 @@ public class User implements Parsable {
     /**
      * The profile_image_url property
      * @deprecated
-     * 
+     *
      */
     @Deprecated
     private String profileImageUrl;
@@ -422,7 +422,7 @@ public class User implements Parsable {
      * Gets the profile_image_url property value. The profile_image_url property
      * @return a String
      * @deprecated
-     * 
+     *
      */
     @jakarta.annotation.Nullable
     @Deprecated
@@ -730,7 +730,7 @@ public class User implements Parsable {
      * Sets the profile_image_url property value. The profile_image_url property
      * @param value Value to set for the profile_image_url property.
      * @deprecated
-     * 
+     *
      */
     @Deprecated
     public void setProfileImageUrl(@jakarta.annotation.Nullable final String value) {
